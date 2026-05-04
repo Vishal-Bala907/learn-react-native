@@ -45,6 +45,15 @@ export default function Index() {
             url={"/(tabs)/subscription/spotify" as RelativePathString}
             text="Spotify Subscription"
           />
+          <Link
+            className="mt-4 bg-primary text-white font-bold text-center w-fit py-4 px-2"
+            href={{
+              pathname: "/(tabs)/subscription/[id]",
+              params: { id: "claude" },
+            }}
+          >
+            Clause Max Subscription
+          </Link>
         </View>
       </View>
     </SafeAreaView>
