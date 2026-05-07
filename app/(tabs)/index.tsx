@@ -1,11 +1,15 @@
 import LinkDark from "@/components/basic/links/LinkDark";
 import { sign_in_path, sign_up_path } from "@/components/links/links";
 import { Link, RelativePathString } from "expo-router";
-import { Text, View, TouchableOpacity, SafeAreaView } from "react-native";
+import { Text, View, TouchableOpacity } from "react-native";
+
+import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
+import { styled } from "nativewind";
+const SafeAreaView = styled(RNSafeAreaView);
 
 export default function Index() {
   return (
-    <SafeAreaView className="flex-1 bg-slate-50">
+    <SafeAreaView className="flex-1 bg-background p-5">
       <View className="flex-1 items-center justify-center px-8">
         {/* Icon/Logo Placeholder */}
         <View className="bg-blue-100 p-6 rounded-full mb-8 shadow-sm">

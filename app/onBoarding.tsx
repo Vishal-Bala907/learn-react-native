@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 const onBoarding = () => {
   return (
     <View>
-      <Text>On Boarding page</Text>;
+      <Text>On Boarding page</Text>
     </View>
   );
 };
