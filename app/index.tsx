@@ -1,7 +1,7 @@
 import LinkDark from "@/components/basic/links/LinkDark";
 import { sign_in_path, sign_up_path } from "@/components/links/links";
 import { Link, RelativePathString } from "expo-router";
-import { Text, View, TouchableOpacity, SafeAreaView } from "react-native";
+import { SafeAreaView, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
   return (
